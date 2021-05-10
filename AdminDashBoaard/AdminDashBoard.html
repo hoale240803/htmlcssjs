@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin DashBoard</title>
+    <!-- Font From Lineawasome -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/AdminDashBoard.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav__toggle" />
+    <!-- === SIDE BAR === -->
+    <div class="sidebar">
+      <!-- === SIDEBAR BRAND === -->
+      <div class="sidebar__brand">
+        <h2><span class="lab la-accusoft"></span><span>Accusoft</span></h2>
+      </div>
+      <!-- === SIDEBAR MENU === -->
+      <div class="sidebar__menu">
+        <ul>
+          <li>
+            <a href="#" class="active"
+              ><span class="las la-igloo"></span><span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="las la-users"></span><span>Customers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="las la-clipboard-list"></span><span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="las la-shopping-bag"></span><span>Orders</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="las la-user-circle"></span><span>Inventory</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="las la-clipboard-list"></span><span>Tasks</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- === MAIN CONTENT === -->
+    <div class="main__content">
+      <header>
+        <h2>
+          <label for="nav__toggle">
+            <span class="las la-bars"> </span>
+          </label>
+          DashBoard
+        </h2>
+        <div class="search__wrapper">
+          <span class="las la-search"></span>
+          <input type="search" placeholder="Search here" />
+        </div>
+        <div class="user__wrapper">
+          <img
+            src="/AdminDashBoaard/assets/microservice.png"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <div>
+            <h4>John Doe</h4>
+            <small>Super Admin</small>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="cards">
+          <div class="card__single">
+            <div>
+              <h1>12</h1>
+              <span>Customers</span>
+            </div>
+            <div>
+              <span class="las la-users"></span>
+            </div>
+          </div>
+          <div class="card__single">
+            <div>
+              <h1>124</h1>
+              <span>Projects</span>
+            </div>
+            <div>
+              <span class="las la-tasks"></span>
+            </div>
+          </div>
+          <div class="card__single">
+            <div>
+              <h1>12</h1>
+              <span>Orders</span>
+            </div>
+            <div>
+              <span class="las la-shopping-bag"></span>
+            </div>
+          </div>
+          <div class="card__single">
+            <div>
+              <h1>6k</h1>
+              <span>Incomes</span>
+            </div>
+            <div>
+              <span class="las la-money-bill"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- === RECENT GRID === -->
+        <div class="recent__grid">
+          <!-- === RECENT PROJECTS === -->
+          <div class="projects">
+            <div class="card">
+              <div class="card__header">
+                <h3>Recent Projects</h3>
+                <button>
+                  See All <span class="las la-arrow-right"></span>
+                </button>
+              </div>
+              <div class="card__body">
+                <table width="100%">
+                  <thead>
+                    <tr>
+                      <td>Project Title</td>
+                      <td>Department</td>
+                      <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>UI team</td>
+                      <td><span class="status purple"></span>Review</td>
+                    </tr>
+                    <tr>
+                      <td>Web Developer</td>
+                      <td>FRONT END</td>
+                      <td><span class="status pink"></span>In Progress</td>
+                    </tr>
+                    <tr>
+                      <td>Ushop app</td>
+                      <td>UI team</td>
+                      <td><span class="status orange"></span>Pending</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- === RECENT CUSTOMERS === -->
+          <div class="customers">
+            <div class="card">
+              <div class="card__header">
+                <h2>New Customers</h2>
+                <button>
+                  See All <span class="las la-arrow-right"></span>
+                </button>
+              </div>
+              <div class="card__body">
+                <div class="customer">
+                  <div class="info">
+                    <img
+                      src="assets/microservice.png"
+                      alt=""
+                      width="40px"
+                      height="40px"
+                    />
+                    <div>
+                      <h4>HoaL</h4>
+                      <small>Ceo Hoal</small>
+                    </div>
+                  </div>
+                  <div class="contact">
+                    <span class="las la-user-circle"></span>
+                    <span class="las la-comment"></span>
+                    <span class="las la-phone"></span>
+                  </div>
+                </div>
+                <div class="customer">
+                  <div class="info">
+                    <img
+                      src="assets/microservice.png"
+                      alt=""
+                      width="40px"
+                      height="40px"
+                    />
+                    <div>
+                      <h4>HoaL</h4>
+                      <small>Ceo Hoal</small>
+                    </div>
+                  </div>
+                  <div class="contact">
+                    <span class="las la-user-circle"></span>
+                    <span class="las la-comment"></span>
+                    <span class="las la-phone"></span>
+                  </div>
+                </div>
+                <div class="customer">
+                  <div class="info">
+                    <img
+                      src="assets/microservice.png"
+                      alt=""
+                      width="40px"
+                      height="40px"
+                    />
+                    <div>
+                      <h4>HoaL</h4>
+                      <small>Ceo Hoal</small>
+                    </div>
+                  </div>
+                  <div class="contact">
+                    <span class="las la-user-circle"></span>
+                    <span class="las la-comment"></span>
+                    <span class="las la-phone"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
