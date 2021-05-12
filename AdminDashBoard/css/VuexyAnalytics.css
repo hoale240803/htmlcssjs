@@ -1,0 +1,143 @@
+.vue__block {
+  background: gray;
+  line-height: 17px;
+  margin: 10px;
+  text-align: center;
+}
+
+.vue__ecommerce {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.vue__sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 252px;
+}
+.vue__main__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 262px;
+  max-width: 100%;
+}
+.vue__navbar {
+  display: flex;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  height: 64px;
+}
+.vue__con__sta {
+  display: flex;
+  flex-direction: row;
+  max-height: 240px;
+}
+.congratulation {
+  display: flex;
+  flex-grow: 1;
+  height: 120px;
+  max-width: 512px;
+  background: lawngreen;
+}
+
+.statistics {
+  display: flex;
+  flex-grow: 1;
+}
+.orders__profit__reven__earn {
+  display: flex;
+  flex-direction: row;
+}
+.orders__profit__earning {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 512px;
+  max-height: 250px;
+  background: white;
+}
+.orders__profit {
+  display: flex;
+  flex-direction: row;
+}
+.oders {
+  display: flex;
+  flex-grow: 1;
+  height: 120px;
+  background: green;
+  margin-left: 0;
+}
+.profit {
+  display: flex;
+  flex-grow: 1;
+  height: 120px;
+  background: blue;
+  margin-right: 0;
+}
+.revenue {
+  display: flex;
+  flex-grow: 1;
+  background: hotpink;
+}
+.earning {
+  display: flex;
+  height: 123px;
+  flex-grow: 1;
+  background: indianred;
+  margin: 10px 0;
+}
+
+.table__meetingup {
+  display: flex;
+  flex-direction: row;
+}
+.company__table {
+  display: flex;
+  width: 1056px;
+  height: 467px;
+  background: lightcoral;
+}
+.meetingup {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* ===== BROWSER STATISTICS TRANSACTIONS =====*/
+.browser__goal__transactions {
+  display: flex;
+  flex-direction: row;
+}
+.browser__states {
+  display: flex;
+  flex-grow: 1;
+  height: 64px;
+  background: rgb(83, 138, 29);
+  margin-left: 0;
+}
+.goal__overview {
+  display: flex;
+  flex-grow: 1;
+  background: lawngreen;
+  margin-right: 0;
+}
+.transactions {
+  display: flex;
+  flex-grow: 1;
+  background: rgb(69, 95, 43);
+  margin-left: 20px;
+  margin-right: 0;
+}
+.footer {
+  display: flex;
+  max-width: 100%;
+  height: 64px;
+}
+.browser__goal {
+  display: flex;
+  flex: row;
+  width: 1056px;
+}

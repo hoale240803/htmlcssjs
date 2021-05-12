@@ -1,0 +1,103 @@
+.vue__website {
+  display: flex;
+  flex-direction: row;
+}
+.vue__sidebar {
+  width: 252px;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+}
+.vue__block {
+  background: gray;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.block__right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 279px;
+}
+.con__sub__ord {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  max-height: 250px;
+}
+.vue__congratulation {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 123px;
+}
+.vue__subcribers {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.vue__orders {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.ave__sup {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  max-height: 450px;
+}
+.vue__session {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 407px;
+}
+.vue__support__tracker {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  max-height: 500px;
+}
+
+.user__sale__app {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 480px;
+}
+.vue__user__timeline {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.vue__sales {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.vue__app__design {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.vue__user__table {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.vue__navbar {
+  display: flex;
+  flex-grow: 1;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+}
